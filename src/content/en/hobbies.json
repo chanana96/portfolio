@@ -1,0 +1,41 @@
+[
+  {
+    "id": "0",
+    "name": "Starcraft II",
+    "description": "Former Starcraft II professional gamer",
+    "smallWidth": "6rem",
+    "largeWidth": "8rem",
+    "smallHeight": "6rem",
+    "largeHeight": "8rem",
+    "strokeWidth": "7",
+    "viewBox": "0 0 512 512",
+    "transform": null,
+    "animationDuration": 14
+  },
+  {
+    "id": "1",
+    "name": "Chess",
+    "description": "",
+    "smallWidth": "6rem",
+    "largeWidth": "8rem",
+    "smallHeight": "6rem",
+    "largeHeight": "8rem",
+    "strokeWidth": "7",
+    "viewBox": "0 0 512 512",
+    "transform": null,
+    "animationDuration": 25
+  },
+  {
+    "id": "2",
+    "name": "Weightlifting",
+    "description": "",
+    "smallWidth": "6rem",
+    "largeWidth": "8rem",
+    "smallHeight": "6rem",
+    "largeHeight": "8rem",
+    "strokeWidth": "5",
+    "viewBox": "0 0 512 512",
+    "transform": null,
+    "animationDuration": 14
+  }
+]

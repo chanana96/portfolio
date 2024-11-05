@@ -1,0 +1,37 @@
+[
+  {
+    "id": "0",
+    "title": "Valorant Discord Bot",
+    "image": "../images/discord+bot.png",
+    "description": "Discord bot primarily used to perform various commands for the online game 'Valorant'. Also does other general purpose tasks.",
+    "skills": ["Node.js", "Discord.js", "Redis", "Express"],
+    "githubLink": "https://github.com/chanana96/JanuaryBot"
+  },
+  {
+    "id": "1",
+    "title": "Better Chess Analysis",
+    "image": "../images/analysis.png",
+    "description": "",
+    "skills": [""],
+    "websiteLink": "",
+    "githubLink": ""
+  },
+  {
+    "id": "2",
+    "title": "Habit builder",
+    "image": "../images/habits.png",
+    "description": "",
+    "skills": [""],
+    "websiteLink": "",
+    "githubLink": ""
+  },
+  {
+    "id": "3",
+    "title": "Chess opening practice",
+    "image": "../images/openingsdb.png",
+    "description": "",
+    "skills": [""],
+    "websiteLink": "",
+    "githubLink": ""
+  }
+]

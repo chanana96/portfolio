@@ -1,0 +1,23 @@
+{
+  "hero": {
+    "title": "안녕하세요! 김우진 입니다.",
+    "text": "문제 해결하는것 좋아하는 신입 풀스택 개발자"
+  },
+  "about": {
+    "title": "자기 소개",
+    "text": "안녕하세요! 제 이름은 김우진입니다. 제가 졸업한 후 다양한 웹 및 모바일 애플리케이션 개발하고있습니다. 아래는 제가 사용하는 프레임워크와 언어들입니다."
+  },
+  "experience": {
+    "title": "경력",
+    "text": "2022년에 졸업한후 다양한 애플리케이션 만들면서 개발 실력 향상 시키고 있습니다."
+  },
+  "projects": {
+    "title": "프로젝트",
+    "text": "제가 만든 프로젝트중에 제일 좋아하는것 입니다."
+  },
+  "hobbies": {
+    "title": "취미",
+    "text": "Aside from making applications, these are the things that I enjoy to do for fun! Under each of them I have included my favorite achievements."
+  },
+  "resume": "이력서"
+}
