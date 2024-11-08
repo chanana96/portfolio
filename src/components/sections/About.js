@@ -106,8 +106,12 @@ const About = () => {
     "Material-UI",
     "Javascript",
     "React",
+    "C#",
     "Git",
     "Express",
+    "MongoDB",
+    "HTML",
+    "CSS",
   ];
 
   const { t } = useTranslation();

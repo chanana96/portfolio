@@ -17,7 +17,8 @@
   },
   "hobbies": {
     "title": "취미",
-    "text": "Aside from making applications, these are the things that I enjoy to do for fun! Under each of them I have included my favorite achievements."
+    "text": "개발 외에서 하는 취미입니다!"
   },
-  "resume": "이력서"
+  "resume": "이력서",
+  "resumelink": "/Woo Jin Kim Resume Ko.pdf"
 }

@@ -14,8 +14,8 @@
   },
   {
     "id": "1",
-    "name": "Chess",
-    "description": "",
+    "name": "체스",
+    "description": "개발하는것처럼 문제 해결하는게임 체스 좋아합니다",
     "smallWidth": "6rem",
     "largeWidth": "8rem",
     "smallHeight": "6rem",
@@ -27,8 +27,8 @@
   },
   {
     "id": "2",
-    "name": "Weightlifting",
-    "description": "",
+    "name": "웨이트 리프팅",
+    "description": "머리 식히는 용도로 웨이트 리프팅을 즐겨합니다",
     "smallWidth": "6rem",
     "largeWidth": "8rem",
     "smallHeight": "6rem",

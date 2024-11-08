@@ -1,37 +1,35 @@
 [
   {
     "id": "0",
-    "title": "Valorant Discord Bot",
+    "title": "Discord bot",
     "image": "../images/discord+bot.png",
-    "description": "Discord bot primarily used to perform various commands for the online game 'Valorant'. Also does other general purpose tasks.",
-    "skills": ["Node.js", "Discord.js", "Redis", "Express"],
+    "description": "A discord bot I developed with various features and commands.",
+    "skills": ["Node.js", "Discord.js", "Redis", "Express", "Axios", "MongoDB"],
     "githubLink": "https://github.com/chanana96/JanuaryBot"
   },
   {
     "id": "1",
-    "title": "Better Chess Analysis",
+    "title": "Chess analysis app",
     "image": "../images/analysis.png",
-    "description": "",
-    "skills": [""],
-    "websiteLink": "",
-    "githubLink": ""
+    "description": "A software that analyses online chess games in detail using an api.",
+    "skills": ["Node.js, Express, Axios"],
+    "githubLink": "https://github.com/chanana96/better-chess-analysis"
   },
   {
     "id": "2",
-    "title": "Habit builder",
-    "image": "../images/habits.png",
-    "description": "",
-    "skills": [""],
-    "websiteLink": "",
-    "githubLink": ""
+    "title": "Chess bot",
+    "image": "../images/openingsdb.png",
+    "description": "A chess bot I am currently developing.",
+    "skills": ["Express, Node.js, Axios"],
+    "githubLink": "https://github.com/chanana96/lichessopeningtrainer"
   },
   {
     "id": "3",
-    "title": "Chess opening practice",
-    "image": "../images/openingsdb.png",
-    "description": "",
-    "skills": [""],
+    "title": "Weather app",
+    "image": "../images/weather_.jpg",
+    "description": "A weather app I made as a university student.",
+    "skills": ["C#, OpenWeatherMap API, Windows Forms"],
     "websiteLink": "",
-    "githubLink": ""
+    "githubLink": "https://github.com/chanana96/weather"
   }
 ]

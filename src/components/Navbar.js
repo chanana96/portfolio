@@ -227,7 +227,7 @@ const Navbar = () => {
         >
           <StyledDrawerList>
             <StyledResumeLink
-              href={process.env.PUBLIC_URL + "/Woo Jin Kim Resume.pdf"}
+              href={`${process.env.PUBLIC_URL}${t("resumelink")}`}
               target="_blank"
             >
               <Typography
@@ -316,7 +316,7 @@ const Navbar = () => {
         className={!hasAnimated ? "animate__animated animate__fadeInDown" : ""}
       >
         <StyledResumeLink
-          href={process.env.PUBLIC_URL + "/Woo Jin Kim Resume.pdf"}
+          href={`${process.env.PUBLIC_URL}${t("resumelink")}`}
           target="_blank"
         >
           <Typography>{t("resume")}</Typography>

@@ -15,7 +15,7 @@
   {
     "id": "1",
     "name": "Chess",
-    "description": "",
+    "description": "I enjoy chess as a game of problem solving, much like programming.",
     "smallWidth": "6rem",
     "largeWidth": "8rem",
     "smallHeight": "6rem",
@@ -28,7 +28,7 @@
   {
     "id": "2",
     "name": "Weightlifting",
-    "description": "",
+    "description": "I enjoy weightlifting to clear my mind.",
     "smallWidth": "6rem",
     "largeWidth": "8rem",
     "smallHeight": "6rem",
