@@ -9,7 +9,7 @@
   },
   "experience": {
     "title": "Experience",
-    "text": "Since graduating from Korean Bible University in 2022, I've been developing various applications and sharpening my skills."
+    "text": "Since graduating from university in 2022, I've been developing various applications and sharpening my skills."
   },
   "projects": {
     "title": "Projects",
@@ -19,5 +19,7 @@
     "title": "Hobbies",
     "text": "Aside from making applications, these are the things that I enjoy to do for fun! Under each of them I have included my favorite achievements."
   },
-  "resume": "Resume"
+  "resume": "Resume",
+  "resumelink": "/Woo Jin Kim Resume.pdf",
+  "source": "View source"
 }
