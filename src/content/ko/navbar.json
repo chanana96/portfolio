@@ -1,18 +1,22 @@
 [
   {
     "id": "0",
-    "name": "자기소개"
+    "name": "자기소개",
+    "route": "About"
   },
   {
     "id": "1",
-    "name": "경력"
+    "name": "경력",
+    "route": "Experience"
   },
   {
     "id": "2",
-    "name": "프로젝트"
+    "name": "프로젝트",
+    "route": "Projects"
   },
   {
     "id": "3",
-    "name": "취미"
+    "name": "취미",
+    "route": "Hobbies"
   }
 ]

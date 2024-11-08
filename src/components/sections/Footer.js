@@ -2,21 +2,34 @@ import { React } from "react";
 import "animate.css";
 import { useInView } from "react-intersection-observer";
 import { List, styled, useTheme, useMediaQuery } from "@mui/material";
-
+import GitHubIcon from "@mui/icons-material/GitHub";
+import { useTranslation } from "react-i18next";
 import { emailSvgPath, githubSvgPath, linkedInSvgPath } from "../SvgHelper";
 
 //Component styles//
-const StyledFooterRoot = styled("section")(({ theme }) => ({
-  minHeight: "10vh",
-  [theme.breakpoints.down("lg")]: {
-    minHeight: "20vh",
-  },
-  justifyContent: "center",
+const StyledFooterRoot = styled("footer")(({ theme }) => ({
+  backgroundColor: theme.palette.background.main,
+  width: "100%",
+  padding: "2rem 0 1rem 0",
+  marginTop: "auto", // Push to bottom
   display: "flex",
-  flexWrap: "wrap",
   flexDirection: "column",
-  alignContent: "center",
-  textAlign: "center",
+  alignItems: "center",
+  gap: "1rem",
+}));
+
+const StyledSourceLink = styled("a")(({ theme }) => ({
+  color: theme.palette.textMain.main,
+  textDecoration: "none",
+  display: "flex",
+  alignItems: "center",
+  gap: "0.5rem",
+  fontSize: "0.8rem",
+  opacity: 0.8,
+  transition: "opacity 0.2s",
+  "&:hover": {
+    opacity: 1,
+  },
 }));
 
 const StyledFooterList = styled(List)({
@@ -31,6 +44,7 @@ const StyledListItemLink = styled("a")(({ theme }) => ({
 //End component styles
 
 const Footer = () => {
+  const { t } = useTranslation();
   const theme = useTheme();
   const lg = useMediaQuery(theme.breakpoints.down("lg"));
   const [footer, footerInView] = useInView({
@@ -105,6 +119,14 @@ const Footer = () => {
           </StyledFooterList>
         )}
       </div>
+      <StyledSourceLink
+        href="https://github.com/chanana96/portfolio"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <GitHubIcon fontSize="medium" />
+        {t("source")}
+      </StyledSourceLink>
     </StyledFooterRoot>
   );
 };

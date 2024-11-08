@@ -248,7 +248,7 @@ const Navbar = () => {
             <StyledDrawerList key={data.id}>
               <StyledAppBarDrawerLink
                 onClick={toggleDrawer(false)}
-                to={data.name}
+                to={data.route}
                 smooth={true}
                 duration={1000}
               >
@@ -302,8 +302,8 @@ const Navbar = () => {
           }
         >
           <StyledAppBarLink
-            href={`#${data.name}`}
-            to={data.name}
+            href={`#${data.route}`}
+            to={data.route}
             smooth={true}
             duration={1000}
           >
