@@ -21,6 +21,9 @@ i18n
   // init i18next
   // for all options read: https://www.i18next.com/overview/configuration-options
   .init({
+    backend: {
+      loadPath: "/portfolio/locales/{{lng}}/{{ns}}.json", // Add /portfolio prefix for GitHub Pages
+    },
     fallbackLng: "ko",
     lng: "ko",
     debug: true,

@@ -227,7 +227,7 @@ const Navbar = () => {
         >
           <StyledDrawerList>
             <StyledResumeLink
-              href={`${process.env.PUBLIC_URL}${t("resumelink")}`}
+              href={`/portfolio${t("resumelink")}`}
               target="_blank"
             >
               <Typography
@@ -315,10 +315,7 @@ const Navbar = () => {
         style={{ paddingLeft: "4px" }}
         className={!hasAnimated ? "animate__animated animate__fadeInDown" : ""}
       >
-        <StyledResumeLink
-          href={`${process.env.PUBLIC_URL}${t("resumelink")}`}
-          target="_blank"
-        >
+        <StyledResumeLink href={`/portfolio${t("resumelink")}`} target="_blank">
           <Typography>{t("resume")}</Typography>
         </StyledResumeLink>
       </div>

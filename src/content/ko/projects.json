@@ -2,32 +2,32 @@
   {
     "id": "0",
     "title": "디스코드 봇",
-    "image": "../images/discord+bot.png",
+    "image": "/portfolio/images/discord+bot.png",
     "description": "디스코드 봇을 만들어서 다양한 기능을 추가하고 있습니다.",
     "skills": ["Node.js", "Discord.js", "Redis", "Express", "Axios", "MongoDB"],
     "githubLink": "https://github.com/chanana96/JanuaryBot"
   },
   {
     "id": "1",
+    "title": "체스 봇",
+    "image": "/portfolio/images/openingsdb.png",
+    "description": "로컬에서 실행하는 체스엔진 사용하는 체스 봇입니다.",
+    "skills": ["Express, Node.js, Axios"],
+    "githubLink": "https://github.com/chanana96/lichessopeningtrainer"
+  },
+  {
+    "id": "2",
     "title": "체스 분석 애플리케이션",
-    "image": "../images/analysis.png",
+    "image": "/portfolio/images/analysis.png",
     "description": "온라인 체스 게임을 api를 통해 세부적으로 분석하는 소프트웨어입니다.",
     "skills": ["Node.js, Express, Axios"],
     "githubLink": "https://github.com/chanana96/better-chess-analysis"
   },
   {
-    "id": "2",
-    "title": "체스 봇",
-    "image": "../images/openingsdb.png",
-    "description": "현재 개발중인 오프닝 트레이너 체스 봇입니다.",
-    "skills": ["Express, Node.js, Axios"],
-    "githubLink": "https://github.com/chanana96/lichessopeningtrainer"
-  },
-  {
     "id": "3",
     "title": "날씨 애플리케이션",
-    "image": "../images/weather_.jpg",
-    "description": "대학교 시절때 만든 C# 날씨 애플리케이션입니다.",
+    "image": "/portfolio/images/weather_.jpg",
+    "description": "대학 재학당시 만든 C# 날씨 애플리케이션입니다.",
     "skills": ["C#, OpenWeatherMap API, Windows Forms"],
     "websiteLink": "",
     "githubLink": "https://github.com/chanana96/weather"
